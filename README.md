@@ -1,4 +1,10 @@
 # PlayFab
-This repo is the official home of PlayFab on GitHub. Subscribe to it to be notified of announcements and service releases. 
+ℹ️ This repo is the official home of [Microsoft Azure PlayFab](https://playfab.com/) on GitHub.
 
-Please note, we will open the issues section soon to make it easier for you to share product feedback and requests.
+_Subscribe to it to be notified of announcements and service releases._
+
+📝 The SDKs and Game Engine Plugins are available in this [PlayFab organization's repos](https://github.com/PlayFab).
+
+🗒️ Open Source documentation is available on the [Microsoft Docs site](https://docs.microsoft.com/en-us/gaming/playfab/).
+
+See the [Community Forum](https://community.playfab.com/index.html) for product feedback and feature requests.
