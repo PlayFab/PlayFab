@@ -36,8 +36,8 @@ Do you enable security protocol TLS 1.2 or greater for all network connections t
 
 Do you test your app and systems for vulnerabilities and security issues at least every 12 months? For example, do you perform a manual penetration test?
 
-•	Answer this question according to your approach for testing your own custom code (as opposed to vulnerability testing of the underlying PlayFab services).
-•	If you use the hosted services or hosted scripts features of PlayFab, Meta requires these services to be in scope for your security test. 
+* Answer this question according to your approach for testing your own custom code (as opposed to vulnerability testing of the underlying PlayFab services).
+* If you use the hosted services or hosted scripts features of PlayFab, Meta requires these services to be in scope for your security test. 
 
 ## Protecting Meta API access tokens and app secrets 
 
@@ -45,12 +45,13 @@ Are Meta API access tokens and app secrets protected in both of the following wa
 1.	By never storing Meta API access tokens on client devices where they are accessible outside of the current app and user. 
 2.	By using a data vault (like Vault by Hashicorp) with separate key management service (KMS) if these are stored in a cloud, server or data center environment. 
 
-* Answer the client part of this question according to your own implementation. 
-* On the cloud part of this question:  
- * If you're using other backend services besides PlayFab, answer this question according to your implementation.  
- * If you're using PlayFab as your only backend data storage solution:
-  * You must never write Meta API access tokens or the app secret into PlayFab. Instead, you should rely on PlayFab's login features to handle access tokens seamlessly. 
-  * If you adhere to this guidance of using PlayFab login features to handle access tokens, our answer is yes to the question about whether Meta API access tokens and app secrets are protected in a cloud, server, or data center environment. 
+Answer the client part of this question according to your own implementation. 
+
+For the cloud part of this question:  
+* If you're using other backend services besides PlayFab, answer this question according to your implementation.  
+* If you're using PlayFab as your only backend data storage solution:
+    * You must never write Meta API access tokens or the app secret into PlayFab. Instead, you should rely on PlayFab's login features to handle access tokens seamlessly. 
+    * If you adhere to this guidance of using PlayFab login features to handle access tokens, our answer is yes to the question about whether Meta API access tokens and app secrets are protected in a cloud, server, or data center environment. 
 
 ## Requiring multi-factor authentication  
 
