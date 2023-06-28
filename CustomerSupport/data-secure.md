@@ -1,6 +1,6 @@
-# Data protection: Understanding how Azure PlayFab can be used by your title
+# Ways to use Azure PlayFab to keep data secure
 
-This article describes how Azure PlayFab can be used by you to protect data.
+This article describes what protocol Azure PlayFab API uses and ways our services help keep your data safe.
 
 Your titles have access to certain types of data based on the platform it's on. From the platform’s perspective, they want to build trust with the people who use their platforms, especially in the ever-changing privacy regulatory landscape and continuously evolving threats to people’s privacy. This is why platform providers, such as Meta (formerly known as Facebook), want to know how these data is being handled by you using the [Data Protection Assessment](https://developers.facebook.com/docs/development/maintaining-data-access/data-protection-assessment/faq) (DPA).
 
