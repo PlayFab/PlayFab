@@ -61,7 +61,8 @@ Do you require multi-factor authentication for remote access to every account th
 * If the PlayFab developer account you use to access the studio with the Meta uses username/password sign in, you need to create a new developer account that uses Azure AD authentication. Configure your Azure AD account to require multi-factor authentication(MFA) for sign in, then add that account to your studio and set up the permissions you need. You also need to remove all non-Azure AD accounts from your studio, so that they can’t access your titles. 
 * Once that’s done, and all accounts in your studio use Azure AD for sign in (and have MFA enabled), our answer is yes to this question.
 
-  ![image](https://github.com/PlayFab/PlayFab/assets/16616650/d7bce7be-55a0-4df3-b88b-19fc669132c7)
+
+![grant-access-e](https://github.com/PlayFab/PlayFab/assets/16616650/b41c1051-3cdc-4039-a73d-3d15f4bb3b51)
 
 
 ## Keeping software up-to-date 
