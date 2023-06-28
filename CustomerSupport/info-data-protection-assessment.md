@@ -8,7 +8,7 @@ Your titles have access to certain types of data based on the platform it's on. 
 
 Unfortunately, PlayFab is a service and we can't advise you on how to answer the DPA questions because how you use our services in a title is ultimately your implementation. But we want to make sure that you have the information about the portion of the backend we provide. **Our answers are for the service and not for your title.**
 
-It’s important to note that DPA questions is about your entire title implementation, and this goes beyond the PlayFab service.  PlayFab is not responsible for how your title manages data, data privacy, and data security. **You are required to answer DPA questions accurately based on your actual title implementation.**
+It’s important to note that the purpose of the DPA is to understand about your entire title implementation, and this goes beyond the PlayFab service.  PlayFab is not responsible for how your title manages data, data privacy, and data security. **You are required to answer DPA questions accurately based on your actual title implementation.**
 
 If you have questions about DPA, contact your Meta account manager. For PlayFab related questions, go to [PlayFab forums](https://community.playfab.com/index.html).
 
