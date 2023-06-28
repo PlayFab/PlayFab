@@ -20,7 +20,7 @@ Do you enforce encryption at rest for all Platform Data stored in a cloud, serve
 * If you're using PlayFab exclusively (this means that PlayFab is your ONLY backend data storage solution), this is how backend data at rest is managed. 
 
   * Q: Do you store Meta Platform Data within a cloud, server, or data center environment, e.g., databases (primary storage, replicas, and backups), object storage buckets, or block storage”
-  * A: PlayFab doesn't do this. Our answer is no.
+  * A: PlayFab doesn't do this. Our answer is **No**.
     
   * Q: About [data sharing](https://developers.facebook.com/docs/development/maintaining-data-access/data-protection-assessment/assessment-questions#data-sharing)
   * A: Since Playfab is provided by Microsoft, our answer is check the box for **To enable a person or business to provide a service to you (a service provider)**. Check the box for **Microsoft** in the follow up question. 
@@ -30,7 +30,7 @@ Do you enforce encryption at rest for all Platform Data stored in a cloud, serve
 Do you enable security protocol TLS 1.2 or greater for all network connections that pass through, or connect, or cross public networks where Platform Data is transmitted?
  
 * If you transmit Meta Platform Data via peer-to-peer connections (for example, using the Party SDK) then you need to ensure that these connections require TLS before answering. Likewise, if you transmit Meta Platform Data to other services besides PlayFab you should answer this question according to your implementation.
-* If PlayFab is the only backend service that you transmit Meta Platform Data to and from clients AND because all PlayFab API calls require TLS 1.2 or greater, our answer is yes to this question. 
+* If PlayFab is the only backend service that you transmit Meta Platform Data to and from clients AND because all PlayFab API calls require TLS 1.2 or greater, our answer is **Yes** to this question. 
 
 ## Testing for Vulnerabilities and Security Issues 
 
@@ -59,7 +59,7 @@ Do you require multi-factor authentication for remote access to every account th
 
 * PlayFab supports both email/password and Azure Active Directory (Azure AD - “Sign in with Microsoft”) for developer accounts in the PlayFab Game Manager, but only Azure AD meets this Meta security requirement. 
 * If the PlayFab developer account you use to access the studio with the Meta uses username/password sign in, you need to create a new developer account that uses Azure AD authentication. Configure your Azure AD account to require multi-factor authentication(MFA) for sign in, then add that account to your studio and set up the permissions you need. You also need to remove all non-Azure AD accounts from your studio, so that they can’t access your titles. 
-* Once that’s done, and all accounts in your studio use Azure AD for sign in (and have MFA enabled), our answer is yes to this question.
+* Once that’s done, and all accounts in your studio use Azure AD for sign in (and have MFA enabled), our answer is **Yes** to this question.
 
 
 ![grant-access-e](https://github.com/PlayFab/PlayFab/assets/16616650/b41c1051-3cdc-4039-a73d-3d15f4bb3b51)
